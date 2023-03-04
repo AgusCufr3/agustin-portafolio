@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Pinyon+Script&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #020509;
+}
+
+.contenedorIndex {
+	color: aliceblue;
+	font-size: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.presentacion {
+
+}
+
+.presentacion h2 {
+	font-family: "Dancing Script", cursive;
+	text-align: justify;
+}
+
+.presentacion p {
+	font-family: "Pinyon Script", cursive;
+	text-align: justify;
+	position: relative;
+	left: 25px;
+}
+.oculto {
+	display: none;
+}
+
+.mostrar-boton {
+	animation-name: aparecer;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes aparecer {
+from {opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+.botonesInicio {
+	ds
+}
